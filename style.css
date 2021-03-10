@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.header-container {
+    text-align: center;
+}
+
+.header {
+    font-size: 4rem;
+}
+
+.recipe-btn {
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.food-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ingredients-container {
+    flex-direction: column;
+    width: 30%;
+}
+
+.food-image img {
+    width: 70%;
+    border-radius: 3px;
+    
+}
