@@ -1,41 +1,67 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+  background: rgb(198, 228, 185);
+  background: linear-gradient(
+    90deg,
+    rgba(198, 228, 185, 1) 9%,
+    rgba(226, 235, 135, 1) 50%,
+    rgba(124, 228, 74, 1) 100%
+  );
 }
 
 .header-container {
-    text-align: center;
+  text-align: center;
 }
 
 .header {
-    font-size: 4rem;
+  font-size: 4rem;
 }
 
 .recipe-btn {
-    width: 200px;
-    height: 50px;
-    margin-top: 20px;
-    border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  border-radius: 5px;
 }
 
 .food-container {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .ingredients-container {
-    flex-direction: column;
-    width: 30%;
+  flex-direction: column;
+  width: 30%;
+  margin-left: 40px;
+  background-color: rgb(223, 223, 223);
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.ingredients-container ul li {
+  list-style: none;
 }
 
 .food-image img {
-    width: 70%;
-    border-radius: 3px;
-    
+  width: 70%;
+  border-radius: 7px;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.instructions-container {
+  background-color: rgb(223, 223, 223);
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 10px;
 }
